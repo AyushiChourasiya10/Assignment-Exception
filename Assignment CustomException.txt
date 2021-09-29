@@ -1,0 +1,76 @@
+. Identify Custom exception handling classes for following systems
+
+   -Stock Management System
+   -Library Management System
+   -Inventory Management System
+
+Custom Exception Handling For Stock Management System
+
+
+--- OutOfStockException
+--- NotDeliveredException
+--- productNotFoundExcepton
+--- InvalidPinCodeException
+--- CouponCodeExpiredExcetion
+--- PaymentFailedException
+--- ServiceNotFoundException
+--- UserNotFoundException
+--- InvalidUserNameException
+
+
+Custom Exception Handling For library Management System
+
+
+--- BookNotFoundException
+--- BookNotAvailableException
+--- ToolargeRequestException
+--- PaymentFailedException
+--- ProcessCancelationException
+--- AlreadyAllotedException
+--- UserNotFoundException
+--- InvalidUserNameException
+--- TimeExceedException
+
+
+Custom Exception Handling For Inventory Management System
+
+--- ProductNotFoundException
+--- CanNotResellException
+--- OutOfStockException
+--- UserUndefinedEception
+--- DataNotFoundException
+--- CanNotProcessRequestException
+--- PaymentFailedException
+
+2. Identify 10 checked exception and 10 unchecked exception handling classes in JSE 8.0
+
+Some Unchecked Exception
+
+
+--- ArrayIndexOutOfBoundException
+--- ClassCastException
+--- NullPointerException
+--- StringIndexOutOfBoundException
+--- IllegalArgumentException
+--- NumberFormateException
+--- StackOverFlow
+--- OutOfMemory
+--- NoClassDefFoundException
+--- ExceptionInInitialzer
+--- AssertionError
+
+
+
+Some Checked Exception
+
+
+--- IOException
+--- FileNotFoundException
+--- InterruptedException
+--- RunnableException
+--- InvalidClassException 
+--- InvalidObjectException
+--- NotSerializableException
+--- OptionalDataException
+--- UncheckedIOException
+
